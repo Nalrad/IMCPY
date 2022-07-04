@@ -15,7 +15,7 @@ janela.title(' ')
 janela.geometry('320x250')
 janela.configure(bg= co0)
 
-#------dividindo a JANELA em duas partes-------
+#------dividindo a JANELA-------
 
 frame_cima = Frame(janela, width=315, height=50, bg= co0, pady= 0, padx=0, relief='flat')
 frame_cima.grid(row=0, column=0, sticky=NSEW)
@@ -23,7 +23,7 @@ frame_cima.grid(row=0, column=0, sticky=NSEW)
 frame_baixo = Frame(janela, width=315, height=180, bg= co0, pady= 0, padx=0, relief='flat')
 frame_baixo.grid(row=1, column=0, sticky=NSEW)
 
-#------configurando frame cima-------
+#------Frame cima-------
 
 app_nome = Label(frame_cima, text='Calculadora IMC', width=20, height=1, padx=0, relief='flat', anchor='center', font=('Ivy 16 bold'), bg=co0, fg=co1)
 app_nome.place(x=0, y=0)
@@ -31,7 +31,7 @@ app_nome.place(x=0, y=0)
 app_linha= Label(frame_cima, width=400, height=1, padx=0, relief='flat', anchor='center', font=('Ivy 1'), bg=co2, fg=co1)
 app_linha.place(x=5, y=35)
 
-#-----função calcular-----
+#-----Calcular-----
 
 def calcular():
 
@@ -59,7 +59,7 @@ def calcular():
 
 
 
-#------configurando frame baixo-------
+#------Frame baixo-------
 
 l_peso = Label(frame_baixo, text='Insira seu peso:', height=1, padx=0, relief='flat', anchor='center', font=('Ivy 10 bold'), bg=co0, fg=co1)
 l_peso.grid(row=0, column=0, sticky=NSEW, pady=10, padx=3)
