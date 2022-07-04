@@ -1,10 +1,9 @@
-# IMCPY
-## script em python
+# <h3>IMCPY</h3>
+## <h5>script em python</h5>
 from tkinter import *
 from tkinter import ttk
 
-
-# cores
+**cores**
 
 co0 = '#ffffff' # branca / white
 co1 = '#444466' # preta / black
